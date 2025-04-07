@@ -54,7 +54,7 @@ while True:
     n = int(input("선택: "))
 
     if n == 0:
-        print("프로그램을 종료합니다. 안녕히 가세요!")
+        print("프로그램을 종료합니다. 안녕!")
         break
     elif n == 1:
         print(r"""
@@ -79,4 +79,4 @@ while True:
     else:
         print("1, 2, 3 또는 0을 입력해주세요.")
     
-    print()  # 줄바꿈
+    print() 
