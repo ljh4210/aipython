@@ -6,9 +6,8 @@
 # 아니면(잘못입력하면) 잘못 입력했다고 출력
 
 
-# 입력된 숫자에 따라 캐릭터 출력
 
-for i in range(5):
+def print_mygame():
     print("그림 출력 프로그램")
     print("======================")
     print("1.강아지")
@@ -40,43 +39,12 @@ for i in range(5):
     else:
         print("1, 2, 3 중에서 선택해주세요.")
     print()  
+# 입력된 숫자에 따라 캐릭터 출력
+
+for i in range(5):
+    print_mygame()
 
 
-#무한반복
+#무한반복,0종료료
 while True:
-    print("그림 출력 프로그램")
-    print("======================")
-    print("1.강아지")
-    print("2.고양이")
-    print("3.햄스터")
-    print("0.종료")
-    print("======================")
-    n = int(input("선택: "))
-
-    if n == 0:
-        print("프로그램을 종료합니다. 안녕!")
-        break
-    elif n == 1:
-        print(r"""
-     / \__
-    (    @\___
-    /         O
-   /   (_____/
-  /_____/ U
-        """)
-    elif n == 2:
-        print(r"""
-     /\_/\  
-    ( o.o ) 
-     > ^ <
-        """)
-    elif n == 3:
-        print(r"""
- (\_/)
- (•ㅅ•)
- / 　 づ
-        """)
-    else:
-        print("1, 2, 3 또는 0을 입력해주세요.")
-    
-    print() 
+    print_mygame()
