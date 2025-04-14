@@ -39,12 +39,19 @@ def print_mygame():
     else:
         print("1, 2, 3 중에서 선택해주세요.")
     print()  
+
 # 입력된 숫자에 따라 캐릭터 출력
 
+print("5번 출력 프로그램 시작")
 for i in range(5):
     print_mygame()
 
+print("5번 출력 프로그램 종료")
 
 #무한반복,0종료료
+
+print("0입력하면 종료되는 프로그램 시작")
 while True:
     print_mygame()
+
+print("0입력하면 종료되는 프로그램 종료")
