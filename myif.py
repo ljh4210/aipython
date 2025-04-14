@@ -40,7 +40,7 @@ def print_mygame():
     else:
         print("1, 2, 3 또는 0을 입력해주세요.")
 
-    print()  # 줄바꿈
+    print()  
     return True
 
 # 무한반복 실행, 0 입력 시 종료
